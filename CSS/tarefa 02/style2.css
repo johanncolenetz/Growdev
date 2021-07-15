@@ -1,0 +1,22 @@
+h1 {
+    background-color: blanchedalmond;
+}
+
+div {
+
+    width: 200px;
+    height: 50px;
+    background-color: darkgreen;
+}
+
+#quadro2 {
+    opacity: 0.8;
+}
+
+#quadro3 {
+    opacity: 0.5;
+}
+
+#quadro4 {
+    opacity: 0.2;
+}

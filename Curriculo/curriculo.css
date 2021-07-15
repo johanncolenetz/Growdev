@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins';
+    background-color: #19def0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#dados {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 50px;
+    box-shadow: -10px 5px 20px 0px black;
+}
+
+#perfil-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-perfil {
+    height: 200px;
+    width: 200px;
+   border-radius: 50%;
+}
+
+.card-padding {
+    padding: 50px;
+}
+
+#card-dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#contato {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 7px 50px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    user-select: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    width: 50%;
+}

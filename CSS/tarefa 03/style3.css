@@ -1,0 +1,9 @@
+#quadro {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+   margin: auto;
+   background-image: url("../imagens/fotoperfil.jpg");
+   background-size: cover;
+   background-blend-mode: luminosity;
+}
