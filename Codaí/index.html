@@ -25,14 +25,13 @@
                         <img src="./imagens/fotoperfil.jpg" alt="foto do perfil " height="300" width="300" class="card-image mx-auto d-block">
                     </div>
                     <div class="card-body">
-                        <h5 class="text-center card-title"> Johann Colenetz</h5>
+                        <h5 class="text-center card-title" id="nome-no-html"></h5>
                         <hr class="hr mx-auto">
-                        <p class="text-center">
-                            Fotógrafo
-                        </p>
+                        <p class="text-center" id="cargo-no-html"></p>
+
                         <div class="botoes-card">
-                            <a href="https://www.facebook.com/johann.colenetz.9" target="_blank" class="btn mr-1" id="btn-sobre">Sobre</a>
-                            <a href="https://youtube.com/playlist?list=PLHUnKbJPJyV3aiWpArNpYHU-wQWr6CLUN" target="_blank" class="btn ml-1 btn-card" id="btn-projeto">Projetos</a>
+                            <button onclick="cliqueNoSobre()" class="btn mr-1" id="btn-sobre">Sobre</button>
+                            <button onclick="cliqueNoBotaoProjetos()" class="btn ml-1 btn-card" id="btn-projeto">Projetos</button>
                         </div>
                         <div class="icon-redes-sociais">
                             <div class="links-redes-sociais mt-2">
@@ -48,7 +47,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 text-body">
-                <div class="text">
+                <div class="text" id="texto-1">
                     <h1 class="title-text">Olá</h1>
                     <h4 class="title subtitle">Bem Vindo ao meu Currículo</h4>
                     <p>
@@ -56,6 +55,14 @@
                         Começou na fotografia após terminar seu curso técnico de produção em áudio e vídeo no Instituto
                         Federal do Paraná.
                         Diretor de fotografia em vários videoclipes pela cidade.
+                    </p>
+                </div>
+
+                <div class="text" id="texto-2">
+                    <h1 class="title-text">Projetos</h1>
+                    <h4 class="title subtitle">Alguns Projetos que trabalhei</h4>
+                    <p>
+                        <a href="https://www.johanncolenetz.com/portfolio" target="_blank">Projetos</a>
                     </p>
                 </div>
             </div>
